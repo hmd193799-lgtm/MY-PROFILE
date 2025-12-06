@@ -1,0 +1,68 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* হালকা ধূসর ব্যাকগ্রাউন্ড */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+            background: #ffffff;
+            padding: 40px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #4CAF50; /* প্রোফাইল ছবির চারপাশে বর্ডার */
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.8em;
+        }
+
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+
+        .link-button {
+            display: block;
+            width: 90%;
+            padding: 15px;
+            margin: 15px auto;
+            background-color: #4CAF50; /* সবুজ বাটন */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        /* বিভিন্ন প্ল্যাটফর্মের জন্য রঙের কাস্টমাইজেশন (ঐচ্ছিক) */
+        .facebook { background-color: #3b5998; }
+        .instagram { background-image: linear-gradient(to right, #833AB4, #E1306C, #FD1D1D, #F56040, #FFDC80); }
+        .tiktok { background-color: #000000; }
+        .linkedin { background-color: #0077b5; }
